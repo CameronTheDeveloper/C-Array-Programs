@@ -46,11 +46,9 @@ int instances;						//CALC -- Counts number of instances a name has appeared
      if (nameGuess == "Done" || nameGuess == "done")
      {
     	 cout << "Thanks for using this program!" << endl;
-    	 break;
+    	 return 0;
      }
  }
-
- return 0;
 
 }
 
