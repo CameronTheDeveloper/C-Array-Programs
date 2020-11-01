@@ -5,6 +5,7 @@
 
     int main()
     {
+   
     const int AR_SIZE = 10;                             //CALC -- Size of Array
 
     string namesAr[AR_SIZE];                            //INPUT -- Array for names of 10 people
@@ -19,7 +20,7 @@
      //Prompts the user to input 10 names. Stores in the Array
      for (index=0; index<AR_SIZE; index++)
      {
-    	 cout << "Enter name " << index+1 << ": ";
+         cout << "Enter name " << index+1 << ": ";
          getline(cin,namesAr[index]);
      }
 
@@ -45,8 +46,8 @@
         //Ends the Program if the user types "Done"
         if (nameGuess == "Done" || nameGuess == "done")
         {
-      	    cout << "Thanks for using this program!" << endl;
-    	    return 0;
+            cout << "Thanks for using this program!" << endl;
+            return 0;
         }
      }
     }
