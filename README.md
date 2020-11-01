@@ -36,9 +36,9 @@
          for (index = 0; index < AR_SIZE; index++)
 	 {
              if (nameGuess == namesAr[index])
-            {
-                instances++;
-            }
+             {
+                 instances++;
+             }
          }
          cout << "There are " << instances << " instances of the name " << nameGuess << "!" << endl;
          cout << "Search for another name or type done to exit: ";
