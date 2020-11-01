@@ -34,7 +34,7 @@
      {
          instances = 0;
          for (index = 0; index < AR_SIZE; index++)
-	 {
+         {
              if (nameGuess == namesAr[index])
              {
                  instances++;
