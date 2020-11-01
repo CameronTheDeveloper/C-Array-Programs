@@ -13,7 +13,7 @@
 
     int index;						//CALC -- Counts the amount of occurances of a name
 
-    int instances;					//CALC -- Counts number of instances a name has appeared
+    int instances;                                      //CALC -- Counts number of instances a name has appeared
 
 
      //Prompts the user to input 10 names. Stores in the Array
@@ -39,8 +39,8 @@
 		instances++;
 	     }
          }
-	 cout << "There are " << instances << " instances of the name " << nameGuess << "!" << endl;
-	 cout << "Search for another name or type done to exit: ";
+         cout << "There are " << instances << " instances of the name " << nameGuess << "!" << endl;
+         cout << "Search for another name or type done to exit: ";
          cin >> nameGuess;
          //Ends the Program if the user types "Done"
          if (nameGuess == "Done" || nameGuess == "done")
