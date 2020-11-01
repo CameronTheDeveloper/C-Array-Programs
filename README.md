@@ -34,20 +34,20 @@
          instances = 0;
          for (index = 0; index < AR_SIZE; index++)
 	 {
-    	     if (nameGuess == namesAr[index])
-	     {
-		instances++;
-	     }
-         }
-         cout << "There are " << instances << " instances of the name " << nameGuess << "!" << endl;
-         cout << "Search for another name or type done to exit: ";
-         cin >> nameGuess;
-         //Ends the Program if the user types "Done"
-         if (nameGuess == "Done" || nameGuess == "done")
-         {
-      	     cout << "Thanks for using this program!" << endl;
-    	     return 0;
-         }
+             if (nameGuess == namesAr[index])
+             {
+                 instances++;
+             }
+        }
+        cout << "There are " << instances << " instances of the name " << nameGuess << "!" << endl;
+        cout << "Search for another name or type done to exit: ";
+        cin >> nameGuess;
+        //Ends the Program if the user types "Done"
+        if (nameGuess == "Done" || nameGuess == "done")
+        {
+      	    cout << "Thanks for using this program!" << endl;
+    	    return 0;
+        }
      }
     }
 
