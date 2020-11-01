@@ -5,13 +5,13 @@
 
     int main()
     {
-    const int AR_SIZE = 10;				//CALC -- Size of Array
+    const int AR_SIZE = 10;                             //CALC -- Size of Array
 
-    string namesAr[AR_SIZE];				//INPUT -- Array for names of 10 people
+    string namesAr[AR_SIZE];                            //INPUT -- Array for names of 10 people
 
-    string nameGuess;					//INPUT -- User enters a name to check how many instances it appears
+    string nameGuess;                                   //INPUT -- User enters a name to check how many instances it appears
 
-    int index;						//CALC -- Counts the amount of occurances of a name
+    int index;                                          //CALC -- Counts the amount of occurances of a name
 
     int instances;                                      //CALC -- Counts number of instances a name has appeared
 
@@ -20,7 +20,7 @@
      for (index=0; index<AR_SIZE; index++)
      {
     	 cout << "Enter name " << index+1 << ": ";
-	 getline(cin,namesAr[index]);
+         getline(cin,namesAr[index]);
      }
 
 
